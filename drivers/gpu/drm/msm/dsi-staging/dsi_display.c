@@ -5128,8 +5128,6 @@ error:
 	return ret == 0 ? count : ret;
 }
 
-
-
 bool is_dimlayer_hbm_enabled;
 static ssize_t sysfs_dimlayer_hbm_read(struct device *dev,
 	struct device_attribute *attr, char *buf)

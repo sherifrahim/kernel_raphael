@@ -590,7 +590,7 @@ static int _sde_connector_update_dirty_properties(
 extern bool is_dimlayer_hbm_enabled;
 bool last_dimlayer_hbm_enabled;
 bool last_dimlayer_status;
-void sde_connector_update_hbm(struct drm_connector *connector)
+void sde_connector_update_fod_hbm(struct drm_connector *connector)
 {
 	struct sde_crtc_state *cstate;
 	struct sde_connector *c_conn;
